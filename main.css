@@ -1,0 +1,43 @@
+.jumbotron{
+	background: linear-gradient(#edafc3,#fcb4cb,#99e0ff,#e7a6ff);
+	padding: 50px;
+}
+
+#col1 {
+	background-color: #e7a6ff;
+	color: white;
+}
+#col2 {
+	background-color: skyblue;
+	color:gray;
+}
+#col3 {
+	background-color: lightpink;
+}
+#messageform{
+	padding:30px 8%;
+	background:linear-gradient(45deg, #f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+	color:white;
+}
+
+.item img {
+	width: 100%;
+	max-height: 600px;
+	overflow: hidden;
+}
+
+textarea {
+	resize:none;
+	margin-bottom: 20px;
+}
+navbar {
+	background: blue
+}
+#submit {
+	transition-duration:0.2s;
+}
+
+#submit:hover {
+	background-color: purple;
+}
+
