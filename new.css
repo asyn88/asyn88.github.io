@@ -3,20 +3,20 @@ body {
 }
 
 .jumbotron{
-	background: linear-gradient(#edafc3,#fcb4cb,#99e0ff,#e7a6ff);
+	background-color: gold;
 	padding: 50px;
 }
 
 #col1 {
-	background-color: #e7a6ff;
+	background-color: orange;
 	color: white;
 }
 #col2 {
-	background-color: skyblue;
+	background-color: blue;
 	color:gray;
 }
 #col3 {
-	background-color: lightpink;
+	background-color: magenta;
 }
 #messageform{
 	padding:30px 8%;
@@ -25,23 +25,16 @@ body {
 }
 
 .item img {
-	width: 100%;
+	width: 50%;
+	margin: auto;
+	display: block;
 	max-height: 600px;
 	overflow: hidden;
-}
-
-textarea {
-	resize:none;
-	margin-bottom: 20px;
-}
-navbar {
-	background: blue
 }
 #submit {
 	transition-duration:0.2s;
 }
 
 #submit:hover {
-	background-color: purple;
+	background-color: pink;
 }
-
